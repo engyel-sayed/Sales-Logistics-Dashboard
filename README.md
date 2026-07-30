@@ -12,7 +12,8 @@ The report draws data directly from a **SQL Server** relational database, transf
 ## 🏗️ Data Architecture & Star Schema Model
 The data model connects a central Fact table (`Fact_OrderDetail`) to 6 Dimension tables and a dedicated DAX measure table:
 
-- **Fact Table:** `Fact_OrderDetail
+- **Fact Table:**
+  - `Fact_OrderDetail`
 - **Dimension Tables:**
   - `Dim_Date`
   - `Dim_Product`
